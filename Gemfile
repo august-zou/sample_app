@@ -6,6 +6,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
 	gem 'thin'
 	gem 'rspec-rails', '2.14.0'
+  gem 'pry-rails', '0.3.2'
 end
 
 group :test do
@@ -19,7 +20,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'pry-rails', '0.3.2'
 
 group :doc do
   gem 'sdoc', require: false
