@@ -7,7 +7,9 @@ group :development, :test do
 	gem 'thin'
 	gem 'rspec-rails', '2.14.0'
   gem 'pry-rails', '0.3.2'
+  gem 'spork-rails', '4.0.0'
   gem 'guard-rspec', '4.0.4'
+  gem 'childprocess', '0.3.9'
 end
 
 group :test do
