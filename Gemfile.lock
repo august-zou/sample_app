@@ -62,6 +62,10 @@ GEM
     guard-rspec (4.0.4)
       guard (>= 2.1.1)
       rspec (~> 2.14)
+    guard-spork (1.5.1)
+      childprocess (>= 0.2.3)
+      guard (>= 1.1)
+      spork (>= 0.8.4)
     hike (1.2.3)
     i18n (0.6.5)
     jbuilder (1.5.2)
@@ -189,6 +193,7 @@ DEPENDENCIES
   childprocess (= 0.3.9)
   coffee-rails (~> 4.0.0)
   guard-rspec (= 4.0.4)
+  guard-spork
   jbuilder (~> 1.2)
   jquery-rails
   pry-rails (= 0.3.2)
