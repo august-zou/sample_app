@@ -1,8 +1,8 @@
 source 'http://ruby.taobao.org'
 
 gem 'rails', '4.0.1'
-#gem 'bootstrap-sass','2.3.2.0'
-gem 'bootstrap-sass', '~> 3.0.2.0'
+gem 'bootstrap-sass','2.3.2.0'
+#gem 'bootstrap-sass', '~> 3.0.2.0'
 gem 'bcrypt-ruby', '~> 3.1.2'
 
 group :development, :test do
@@ -19,6 +19,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.37.0'
 	gem 'capybara', '~>2.2.0'
+  gem 'factory_girl_rails'
 end
 
 gem 'sass-rails', '~> 4.0.0'
